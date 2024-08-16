@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/setting_root" android:background="?helpbg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    <notes.easy.android.mynotes.view.ToolbarView android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" android:layout_below="@id/top_layout" />
+    <androidx.cardview.widget.CardView android:id="@id/help_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:layout_below="@id/toolbar_layout" android:layout_marginStart="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_16dp" android:elevation="4.0dip" app:cardCornerRadius="@dimen/size_16dp" app:cardElevation="4.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?translate_card_bg" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:layout_marginBottom="@dimen/size_24dp">
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_invite" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+            <TextView android:textSize="@dimen/text_14sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/help_now" android:background="@drawable/shape_widget_action_button" android:layout_width="wrap_content" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/size_32dp" android:minWidth="216.0dip" android:text="@string/setting_translate_action" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <FrameLayout android:id="@id/subtitle" android:background="@drawable/text_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_32dp" android:layout_below="@id/help_card" android:layout_marginStart="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_16dp">
+        <TextView android:textSize="@dimen/text_18sp" android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_translate_list" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/volunteer_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8dp" android:layout_marginBottom="@dimen/size_12dp" android:layout_below="@id/subtitle" android:layout_marginStart="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_16dp" />
+</RelativeLayout>

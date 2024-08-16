@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/locking_close" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_close_dialog" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_48dp" app:cardBackgroundColor="?theme_dialog_bg" app:cardCornerRadius="16.0dip" app:cardElevation="0.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/pic_lock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/shareapp_pic_top" android:adjustViewBounds="true" />
+            <TextView android:textSize="20.0sp" android:textColor="?theme_text_primary" android:gravity="center" android:id="@id/backup_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_16dp" android:text="@string/share_app" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+            <TextView android:textSize="16.0sp" android:textColor="?theme_text_third" android:gravity="center_horizontal" android:id="@id/locking_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4dp" android:text="@string/share_action" android:fontFamily="@font/manrope_medium" android:paddingStart="@dimen/size_24dp" android:paddingEnd="@dimen/size_24dp" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="@color/theme_text_white_primary" android:gravity="center" android:id="@id/lock_update_btn" android:background="@drawable/shape_theme_btn_ripple" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/size_28dp" android:layout_marginBottom="@dimen/size_24dp" android:text="@string/share_now" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

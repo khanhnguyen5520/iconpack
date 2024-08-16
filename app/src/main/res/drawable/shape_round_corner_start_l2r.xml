@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="1.0dip" android:bottom="@dimen/size_1dp" />
+            <solid android:color="#05bbbbbb" />
+            <corners android:topLeftRadius="8.0dip" android:bottomLeftRadius="@dimen/size_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="1.0dip" android:bottom="@dimen/size_1dp" />
+            <solid android:color="#08bbbbbb" />
+            <corners android:topLeftRadius="8.0dip" android:bottomLeftRadius="@dimen/size_8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="1.0dip" android:top="1.0dip" android:bottom="@dimen/size_1dp" />
+            <solid android:color="#0abbbbbb" />
+            <corners android:topLeftRadius="8.0dip" android:bottomLeftRadius="@dimen/size_8dp" />
+        </shape>
+    </item>
+    <item android:left="3.0dip" android:top="3.0dip" android:bottom="@dimen/size_3dp">
+        <shape>
+            <solid android:color="?theme_dialog_bg" />
+            <corners android:topLeftRadius="6.0dip" android:bottomLeftRadius="@dimen/size_6dp" />
+        </shape>
+    </item>
+</layer-list>

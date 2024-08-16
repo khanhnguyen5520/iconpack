@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.neopixl.pixlui.components.edittext.EditText android:textSize="@dimen/text_16sp" android:textColor="@color/text_color_new" android:textColorHighlight="@color/colorAccent" android:textColorHint="@color/color_3D001C30" android:gravity="top" android:linksClickable="false" android:id="@id/detail_content" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:hint="@string/content" android:lineSpacingExtra="4.0dip" android:inputType="textCapSentences|textMultiLine|textNoSuggestions" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/shape_cursor_color" android:fontFamily="@font/manrope_medium" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/additem_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8dp" android:layout_marginBottom="@dimen/size_8dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/addchecklist" android:layout_width="@dimen/size_25dp" android:layout_height="@dimen/size_25dp" android:layout_marginStart="32.0dip" app:srcCompat="@drawable/ic_additem" />
+        <TextView android:textSize="@dimen/text_16sp" android:textColor="#52000000" android:layout_gravity="center_vertical" android:id="@id/addchecklist_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_item" android:layout_marginStart="@dimen/size_21dp" />
+    </LinearLayout>
+</LinearLayout>

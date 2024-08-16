@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="@dimen/size_24dp" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_4dp">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_hour1" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_hour2" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_3dp" android:layout_height="fill_parent" android:layout_marginStart="@dimen/size_4dp" android:layout_marginEnd="@dimen/size_4dp">
+        <View android:id="@id/vip_dot1" android:background="@drawable/shape_vip_welcome_time_dot_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_3dp" android:layout_marginTop="@dimen/size_6dp" />
+        <View android:layout_gravity="bottom" android:id="@id/vip_dot2" android:background="@drawable/shape_vip_welcome_time_dot_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_3dp" android:layout_marginBottom="@dimen/size_6dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_4dp">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_minute1" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_minute2" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_3dp" android:layout_height="fill_parent" android:layout_marginStart="@dimen/size_4dp" android:layout_marginEnd="@dimen/size_4dp">
+        <View android:id="@id/vip_dot3" android:background="@drawable/shape_vip_welcome_time_dot_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_3dp" android:layout_marginTop="@dimen/size_6dp" />
+        <View android:layout_gravity="bottom" android:id="@id/vip_dot4" android:background="@drawable/shape_vip_welcome_time_dot_bg" android:layout_width="fill_parent" android:layout_height="@dimen/size_3dp" android:layout_marginBottom="@dimen/size_6dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_4dp">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_second1" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_22dp" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/size_17dp" android:textColor="#ffff5b00" android:gravity="center" android:id="@id/vip_second2" android:background="@drawable/shape_vip_welcome_time_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+</LinearLayout>

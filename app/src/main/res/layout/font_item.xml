@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/font_root" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/size_60dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:layout_marginStart="@dimen/size_9dp" android:layout_marginEnd="@dimen/size_9dp" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/font_name_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/item_vip" android:visibility="gone" android:layout_width="@dimen/size_16dp" android:layout_height="@dimen/size_16dp" android:layout_marginTop="@dimen/size_4dp" android:src="@drawable/ic_vip_bg_select1" android:layout_marginEnd="@dimen/size_3dp" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/item_download" android:visibility="gone" android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:layout_marginBottom="@dimen/size_4dp" android:src="@drawable/ic_download" android:layout_marginEnd="@dimen/size_4dp" />
+        <ImageView android:id="@id/selected_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/font_selected_cover" />
+        <notes.easy.android.mynotes.view.RoundProgressBar android:layout_gravity="center" android:id="@id/update_view" android:visibility="gone" android:layout_width="@dimen/size_20dp" android:layout_height="@dimen/size_20dp" />
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/item_new" android:visibility="gone" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_13dp" android:src="@drawable/ic_draw_bg_new" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

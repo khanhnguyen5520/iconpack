@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_secondary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/faq_contact_us" android:background="@drawable/shape_theme_btn_transparent_black_8dp" android:paddingTop="@dimen/size_8dp" android:paddingBottom="@dimen/size_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8dp" android:layout_marginBottom="@dimen/size_40dp" android:text="@string/help_center_contact_us" android:fontFamily="@font/manrope_medium" android:paddingStart="@dimen/size_16dp" android:paddingEnd="@dimen/size_16dp" />
+</FrameLayout>

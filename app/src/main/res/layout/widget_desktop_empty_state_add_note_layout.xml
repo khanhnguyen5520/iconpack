@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_bottom_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_16sp" android:textColor="@color/black" android:gravity="center" android:id="@id/widget_desktop_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_add_your_note" android:lineSpacingExtra="4.0dip" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+        <ImageView android:background="@drawable/ic_widget_desktop_addnote" android:layout_width="@dimen/size_84dp" android:layout_height="@dimen/size_84dp" android:layout_marginTop="@dimen/size_12dp" />
+    </LinearLayout>
+</RelativeLayout>

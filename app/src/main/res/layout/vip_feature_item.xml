@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/vip_feature_item_1_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/vip_feature_item_2_bg_layout" app:layout_constraintHorizontal_weight="14.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/vip_feature_item_2_bg_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/vip_feature_item_3_bg_layout" app:layout_constraintHorizontal_weight="9.0" app:layout_constraintStart_toEndOf="@id/vip_feature_item_1_bg" app:layout_constraintTop_toTopOf="parent">
+        <View android:id="@id/vip_feature_item_2_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vip_feature_item_3_bg_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="9.0" app:layout_constraintStart_toEndOf="@id/vip_feature_item_2_bg_layout" app:layout_constraintTop_toTopOf="parent">
+        <View android:id="@id/vip_feature_item_3_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vip_feature_item_1_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/vip_feature_item_2_layout" app:layout_constraintHorizontal_weight="15.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/vip_feature_item_1" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vip_feature_item_2_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/vip_feature_item_3_layout" app:layout_constraintHorizontal_weight="9.0" app:layout_constraintStart_toEndOf="@id/vip_feature_item_1_layout" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/vip_feature_item_2" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/vip_feature_item_2_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vip_feature_item_3_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="9.0" app:layout_constraintStart_toEndOf="@id/vip_feature_item_2_layout" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/vip_feature_item_3" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/vip_feature_item_3_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

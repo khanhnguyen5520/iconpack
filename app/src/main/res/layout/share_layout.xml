@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/shape_round_16dp_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_20sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:text="@string/share_as" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/save_pic" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" android:layout_marginTop="@dimen/size_12dp">
+            <ImageView android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_file" android:layout_marginStart="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_pics" android:fontFamily="@font/manrope_medium" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/size_24dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/pdf_layout" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp">
+            <ImageView android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/share_as_pdf" android:layout_marginStart="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_pdf" android:fontFamily="@font/manrope_medium" android:layout_marginStart="8.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/lock_vip_img" android:layout_width="@dimen/size_28dp" android:layout_height="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_24dp" app:srcCompat="@drawable/ic_vip_gold" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/text_only" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp">
+            <ImageView android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_text" android:layout_marginStart="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_text" android:fontFamily="@font/manrope_medium" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/size_24dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/img_only" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp">
+            <ImageView android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_image" android:layout_marginStart="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_image" android:fontFamily="@font/manrope_medium" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/size_24dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/recording_only" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp">
+            <ImageView android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_recording" android:layout_marginStart="@dimen/size_24dp" />
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_recordings" android:fontFamily="@font/manrope_medium" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/size_24dp" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/size_18dp" />
+    </LinearLayout>
+</FrameLayout>

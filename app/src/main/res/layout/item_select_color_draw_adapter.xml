@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/item_color_draw_layout" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:layout_margin="@dimen/size_2dp" app:cardCornerRadius="@dimen/size_2dp" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_color_ring" android:background="@drawable/shape_white_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_40dp" android:minHeight="@dimen/size_40dp" />
+</androidx.cardview.widget.CardView>

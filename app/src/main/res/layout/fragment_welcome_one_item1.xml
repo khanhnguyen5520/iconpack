@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape_welcome_1_top_bg" android:layout_width="fill_parent" android:layout_height="122.0dip" android:layout_marginTop="@dimen/size_20dp" android:layout_marginStart="55.0dip" android:layout_marginEnd="@dimen/size_28dp">
+        <TextView android:textSize="15.0sp" android:textStyle="italic" android:textColor="#ff001c30" android:id="@id/top_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_12dp" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/size_12dp" android:text="@string/kano_model" android:fontFamily="@font/manrope_extrabold" />
+        <TextView android:textSize="11.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:id="@id/top_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_12dp" android:layout_marginTop="@dimen/size_6dp" android:layout_marginRight="@dimen/size_12dp" android:layout_marginBottom="@dimen/size_15dp" android:text="" android:lines="3" android:layout_below="@id/top_title" android:lineSpacingExtra="9.0dip" />
+    </RelativeLayout>
+    <ImageView android:layout_width="@dimen/size_80dp" android:layout_height="@dimen/size_80dp" android:src="@drawable/welcome_1_bg1" />
+    <ImageView android:layout_width="@dimen/size_46dp" android:layout_height="@dimen/size_46dp" android:layout_marginTop="@dimen/size_8dp" android:src="@drawable/welcome_1_icon1" android:layout_marginStart="@dimen/size_22dp" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo_star" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_medal" />
+    <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_third" android:gravity="center_vertical" android:id="@id/language_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_16dp" />
+    <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:gravity="center_vertical" android:id="@id/volunteer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/manrope_semi_bold" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <notes.easy.android.mynotes.view.setpw.SetPinPwdLayout android:id="@id/pinSetPwdLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <notes.easy.android.mynotes.view.setpw.VerifyPinPwdLayout android:id="@id/changePinPwdLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <notes.easy.android.mynotes.view.setpw.SetPatternPwdLayout android:id="@id/setPatternPwdLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <notes.easy.android.mynotes.view.setpw.VerifyPatternPwdLayout android:id="@id/verifyPatternPwdLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <notes.easy.android.mynotes.view.setpw.QuestionLayout android:id="@id/questionLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.cardview.widget.CardView android:id="@id/dialog_set_pwd_close_img" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:layout_marginTop="@dimen/size_8dp" android:foreground="?android:selectableItemBackground" android:layout_marginStart="@dimen/size_8dp" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/size_20dp" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_action_close_gray" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

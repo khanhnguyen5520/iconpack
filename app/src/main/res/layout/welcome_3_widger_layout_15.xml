@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/size_100dp" android:layout_height="@dimen/size_100dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_widget_bg_theme_34" android:adjustViewBounds="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/size_6dp" android:layout_marginTop="@dimen/size_20dp" android:layout_marginRight="@dimen/size_6dp" android:layout_marginBottom="@dimen/size_10dp" android:layout_alignTop="@id/img_bg" android:layout_alignBottom="@id/img_bg">
+        <TextView android:textSize="10.0sp" android:textColor="@color/black_87alpha_df000" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome3_widget_title15" android:fontFamily="@font/manrope_semi_bold" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/size_13dp">
+                <ImageView android:layout_width="@dimen/size_9dp" android:layout_height="@dimen/size_9dp" android:src="@drawable/welcome_ic_checkbox" android:layout_marginEnd="@dimen/size_5dp" />
+                <notes.easy.android.mynotes.view.StrikethroughTextView android:textSize="8.0sp" android:textColor="#80001c30" android:ellipsize="end" android:id="@id/content1_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome3_widget_content15_1" android:lines="1" android:fontFamily="@font/manrope_medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/size_13dp">
+                <ImageView android:layout_width="@dimen/size_9dp" android:layout_height="@dimen/size_9dp" android:src="@drawable/welcome_ic_checkbox_nor" android:layout_marginEnd="@dimen/size_5dp" />
+                <TextView android:textSize="8.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome3_widget_content15_2" android:lines="1" android:fontFamily="@font/manrope_medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/size_13dp">
+                <ImageView android:layout_width="@dimen/size_9dp" android:layout_height="@dimen/size_9dp" android:src="@drawable/welcome_ic_checkbox_nor" android:layout_marginEnd="@dimen/size_5dp" />
+                <TextView android:textSize="8.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome3_widget_content15_3" android:lines="1" android:fontFamily="@font/manrope_medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

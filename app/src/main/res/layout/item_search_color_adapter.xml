@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/size_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/size_60dp" android:minHeight="@dimen/size_60dp" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackground" android:minWidth="@dimen/size_60dp" android:minHeight="@dimen/size_60dp" app:cardCornerRadius="@dimen/size_12dp" app:cardElevation="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_color_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/item_color_img" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1" />
+            <ImageView android:id="@id/item_color_cover" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

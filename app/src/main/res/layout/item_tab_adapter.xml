@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_14sp" android:textColor="@color/black_54alpha_8a000" android:gravity="center" android:id="@id/item_btn" android:background="@drawable/shape_theme_04alpha_32dp_ripple" android:layout_width="wrap_content" android:layout_height="@dimen/size_32dp" android:layout_marginBottom="2.5dip" android:maxLines="1" android:layout_centerVertical="true" android:fontFamily="@font/manrope_semi_bold" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_add_card_view" android:background="@drawable/shape_theme_04alpha_32dp_ripple" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" android:layout_centerVertical="true" android:paddingEnd="2.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_baseline_add_18" android:layout_marginStart="@dimen/size_8dp" android:layout_marginEnd="@dimen/size_5dp" />
+    </LinearLayout>
+</RelativeLayout>

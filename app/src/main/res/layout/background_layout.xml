@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/bg_layout" android:background="@color/theme_dialog_white" android:layout_width="fill_parent" android:layout_height="380.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/size_48dp">
+            <com.google.android.material.tabs.TabLayout android:id="@id/color_tabs" android:layout_width="fill_parent" android:layout_height="@dimen/size_48dp" android:layout_marginEnd="@dimen/size_46dp" app:layout_constraintTop_toTopOf="parent" app:tabGravity="start" app:tabIndicator="@drawable/shape_indicate" app:tabIndicatorColor="?colorAccent" app:tabIndicatorFullWidth="false" app:tabMinWidth="@dimen/size_20dp" app:tabMode="scrollable" app:tabSelectedTextColor="?theme_text_primary" app:tabTextAppearance="@style/TabLayoutTextStyle" app:tabTextColor="?theme_text_fourth" />
+            <ImageView android:id="@id/done" android:background="@drawable/shape_theme_ripple_cycle_black_20dp" android:padding="@dimen/size_6dp" android:layout_width="@dimen/size_36dp" android:layout_height="@dimen/size_36dp" android:src="@drawable/ic_check_black" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/size_10dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="#0a000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <notes.easy.android.mynotes.view.NoScrollViewPager android:id="@id/viewpager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="290.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/back_recycle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/size_8dp" />
+    </LinearLayout>
+</LinearLayout>

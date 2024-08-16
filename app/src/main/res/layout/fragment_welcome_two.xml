@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="22.0sp" android:textColor="#ff001c30" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_14dp" android:layout_marginTop="@dimen/size_24dp" android:layout_marginRight="@dimen/size_14dp" android:text="@string/color_notes_for_diverse_writing_scenarios" android:lines="2" android:fontFamily="@font/manrope_extrabold" />
+    <notes.easy.android.mynotes.view.ViewPager2Container android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/banner" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="18.0dip" android:overScrollMode="never" app:banner_indicator_selected_color="@color/white" app:banner_infinite_loop="false" app:banner_radius="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/frame_img" android:layout_width="10.0dip" android:layout_height="fill_parent" android:src="@drawable/shape_welcome2_frame" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </notes.easy.android.mynotes.view.ViewPager2Container>
+</LinearLayout>

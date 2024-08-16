@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/toolbar_widget" android:background="@drawable/shape_widget_top_bg" android:layout_width="fill_parent" android:layout_height="85.0dip" android:minWidth="@dimen/size_260dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/widget_bottom_layout" android:background="@drawable/shape_widget_bottom_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_260dp" android:layout_below="@id/widget_top_layout">
+        <ImageView android:gravity="center" android:id="@id/add" android:background="@drawable/icon_selector" android:padding="14.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_add_note_white" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/checklist" android:background="@drawable/icon_selector" android:padding="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_checklist_svg_white" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/record" android:background="@drawable/icon_selector" android:padding="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_record_white" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/draw" android:background="@drawable/icon_selector" android:padding="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_draw_white" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/camera" android:background="@drawable/icon_selector" android:padding="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_add_pic_white" android:layout_weight="1.0" />
+        <ImageView android:gravity="center" android:id="@id/bg" android:background="@drawable/icon_selector" android:padding="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_change_theme_dark" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/widget_top_layout" android:layout_width="fill_parent" android:layout_height="@dimen/size_32dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_logo" android:layout_centerVertical="true" android:paddingStart="@dimen/size_14dp" android:paddingEnd="0.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/addNewNotes" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/size_14dp" android:paddingEnd="@dimen/size_14dp" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="@dimen/size_16dp" android:layout_height="@dimen/size_16dp" android:src="@drawable/ic_add_white" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

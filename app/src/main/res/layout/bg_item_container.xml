@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/size_8dp" android:layout_marginStart="@dimen/size_5dp" android:layout_marginEnd="@dimen/size_5dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="110.0dip" android:minWidth="@dimen/size_78dp" android:elevation="0.0dip" app:cardCornerRadius="@dimen/size_4dp" app:cardElevation="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/bg_view" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg4" android:scaleType="fitXY" />
+        <ImageView android:id="@id/item_color_white_ring" android:background="@drawable/shape_gray_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_74dp" android:minHeight="@dimen/size_74dp" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="end|center|top" android:id="@id/vip_flag" android:paddingBottom="@dimen/size_1dp" android:visibility="visible" android:layout_width="@dimen/size_15dp" android:layout_height="@dimen/size_15dp" android:src="@drawable/ic_vip_bg_select1" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/size_1dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/bg_new" android:background="@drawable/ic_draw_bg_new" android:visibility="gone" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_16dp" />
+        <ImageView android:id="@id/bg_cycle_view" android:background="@drawable/shape_round_4dp_stroke" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/root_view" android:background="@drawable/shape_theme_btn_transparent_4dp" android:layout_width="fill_parent" android:layout_height="110.0dip" android:minWidth="@dimen/size_78dp" android:layout_alignTop="@id/view" android:layout_alignBottom="@id/view" android:layout_alignStart="@id/view" android:layout_alignEnd="@id/view" />
+    <TextView android:gravity="center" android:id="@id/text_id" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

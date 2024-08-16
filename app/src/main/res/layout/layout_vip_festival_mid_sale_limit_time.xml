@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="@dimen/size_30dp" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_3dp">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_hour1" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="2" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_hour2" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="4" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_4dp" android:layout_height="fill_parent" android:layout_marginStart="@dimen/size_7dp" android:layout_marginEnd="@dimen/size_7dp">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="@dimen/size_4dp" android:layout_marginTop="@dimen/size_8dp" />
+        <View android:layout_gravity="bottom" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="@dimen/size_4dp" android:layout_marginBottom="@dimen/size_8dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_3dp">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_minute1" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_minute2" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_4dp" android:layout_height="fill_parent" android:layout_marginStart="@dimen/size_7dp" android:layout_marginEnd="@dimen/size_7dp">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="@dimen/size_4dp" android:layout_marginTop="@dimen/size_8dp" />
+        <View android:layout_gravity="bottom" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="@dimen/size_4dp" android:layout_marginBottom="@dimen/size_8dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/size_3dp">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_second1" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/size_26dp" android:layout_height="fill_parent">
+        <View android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/size_20dp" android:textColor="#fffe4327" android:gravity="center" android:id="@id/vip_second2" android:background="@drawable/shape_festival_mid_sale_limit_time_item_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_3dp" android:text="0" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    </FrameLayout>
+</LinearLayout>

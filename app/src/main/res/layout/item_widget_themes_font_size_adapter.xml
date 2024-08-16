@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/item_layout" android:layout_width="@dimen/size_44dp" android:layout_height="@dimen/size_44dp" app:cardBackgroundColor="@color/black_4alpha_0a000" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="?theme_text_primary" android:gravity="center" android:layout_gravity="center" android:id="@id/text_size_tv" android:layout_width="50.0dip" android:layout_height="50.0dip" android:text="10" android:includeFontPadding="false" android:fontFamily="@font/manrope_semi_bold" />
+    <View android:layout_gravity="end|bottom|center" android:id="@id/selected_view" android:background="@drawable/ic_widget_select" android:visibility="invisible" android:layout_width="@dimen/size_16dp" android:layout_height="@dimen/size_16dp" android:layout_marginBottom="@dimen/size_2dp" android:layout_marginEnd="@dimen/size_2dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_achieve" android:background="#fffbf9f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="184.0dip" android:src="@drawable/achievement_top_bg" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <notes.easy.android.mynotes.view.ToolbarView android:id="@id/toolbar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" />
+        <LinearLayout android:background="@drawable/shape_round_normal" android:layout_width="fill_parent" android:layout_height="@dimen/size_86dp" android:layout_marginTop="36.0dip" android:layout_marginStart="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_16dp">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff001c30" android:layout_gravity="center_horizontal" android:id="@id/notes_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:fontFamily="@font/manrope_semi_bold" />
+                <TextView android:textSize="14.0sp" android:textColor="#b3001c30" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4dp" android:text="@string/notes_title_case" android:fontFamily="@font/manrope_semi_bold" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff001c30" android:layout_gravity="center_horizontal" android:id="@id/words_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:fontFamily="@font/manrope_semi_bold" />
+                <TextView android:textSize="14.0sp" android:textColor="#b3001c30" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4dp" android:text="@string/words" android:fontFamily="@font/manrope_semi_bold" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff001c30" android:layout_gravity="center_horizontal" android:id="@id/days_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:fontFamily="@font/manrope_semi_bold" />
+                <TextView android:textSize="14.0sp" android:textColor="#b3001c30" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4dp" android:text="@string/days" android:fontFamily="@font/manrope_semi_bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/size_12dp">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/size_16dp" android:layout_marginEnd="@dimen/size_16dp">
+                <TextView android:textSize="@dimen/text_18sp" android:textColor="#ff0b1738" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_18dp" android:text="@string/achievement" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="20.0dip" android:layout_marginEnd="@dimen/size_20dp" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/lin1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_24dp" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal1_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal1_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l1" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal2_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal2_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l2" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal3_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal3_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l3" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/lin2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal4_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal4_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l4" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal5_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal5_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l5" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal6_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal6_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l6" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/lin3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:layout_marginBottom="@dimen/size_24dp" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal7_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal7_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l7" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal8_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal8_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l8" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp">
+                        <ImageView android:id="@id/medal9_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/medal9_img" android:scaleType="centerInside" />
+                        <TextView android:textSize="12.0sp" android:textColor="#8a0b1738" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/medal_l9" android:lineSpacingMultiplier="1.1" android:fontFamily="@font/manrope_medium" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/file_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_4dp" android:layout_marginBottom="@dimen/size_4dp" android:foreground="?selectableItemBackground" android:layout_marginStart="@dimen/size_12dp" android:layout_marginEnd="@dimen/size_12dp" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/size_12dp" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8dp" android:layout_marginBottom="@dimen/size_8dp" android:minHeight="@dimen/size_48dp" android:layout_marginStart="@dimen/size_12dp" android:layout_marginEnd="@dimen/size_12dp">
+        <TextView android:textSize="18.0dip" android:textColor="?theme_text_primary" android:id="@id/file_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+        <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/file_des6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/manrope_medium" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

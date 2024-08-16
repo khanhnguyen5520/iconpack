@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_layout" android:layout_width="100.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/size_8dp" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/title_bg_img" android:layout_width="fill_parent" android:layout_height="18.0dip" android:scaleType="fitXY" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/bottom_bg_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <ImageView android:id="@id/bottom_corner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+            <ImageView android:id="@id/vip_img" android:visibility="invisible" android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:layout_marginTop="@dimen/size_2dp" android:src="@drawable/ic_vip_bg_select1" android:layout_marginEnd="@dimen/size_2dp" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/new_flag" android:visibility="gone" android:layout_width="@dimen/size_26dp" android:layout_height="@dimen/size_14dp" android:src="@drawable/ic_draw_bg_new" />
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/selected_view" android:background="@drawable/ic_widget_select" android:visibility="invisible" android:layout_width="@dimen/size_16dp" android:layout_height="@dimen/size_16dp" android:layout_marginBottom="@dimen/size_2dp" android:layout_marginEnd="@dimen/size_2dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

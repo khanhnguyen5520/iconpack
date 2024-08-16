@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@drawable/ic_menu_shadow_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView android:layout_width="204.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_6dp" app:cardBackgroundColor="?home_popup_bg" app:cardCornerRadius="@dimen/size_8dp" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_8dp" android:layout_marginBottom="@dimen/size_8dp">
+            <LinearLayout android:orientation="vertical" android:id="@id/child_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/pop_restore_purchase" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/size_8dp" android:paddingBottom="@dimen/size_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/size_16dp" android:paddingEnd="@dimen/size_16dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_restore_purchase" />
+                    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_restore_purchase" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_12dp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/pop_faq" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/size_8dp" android:paddingBottom="@dimen/size_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/size_16dp" android:paddingEnd="@dimen/size_16dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_setting_faq" />
+                    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/faq" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_12dp" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/pop_report_issue" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/size_8dp" android:paddingBottom="@dimen/size_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/size_16dp" android:paddingEnd="@dimen/size_16dp">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_feedback_64alpha" />
+                    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_issue" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_12dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

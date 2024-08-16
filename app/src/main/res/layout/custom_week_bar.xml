@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:id="@id/ll_week" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sun" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_20dp" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/mon" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fri" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" />
+    <TextView android:textSize="14.0dip" android:textColor="?subtitleColor" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/sat" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" android:layout_marginEnd="@dimen/size_20dp" />
+</merge>

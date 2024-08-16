@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?selectableItemBackground" android:padding="@dimen/size_4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/size_74dp" android:minHeight="@dimen/size_74dp" android:paddingEnd="@dimen/size_3dp" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/root_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_74dp" android:minHeight="@dimen/size_74dp" app:cardCornerRadius="6.0dip" app:cardElevation="0.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_color_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/item_color_img" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1" />
+            <ImageView android:id="@id/item_color_ring" android:background="@drawable/shape_blue_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_74dp" android:minHeight="@dimen/size_74dp" />
+            <ImageView android:id="@id/item_color_white_ring" android:background="@drawable/shape_gray_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/size_74dp" android:minHeight="@dimen/size_74dp" />
+            <ImageView android:id="@id/item_ads" android:visibility="gone" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_16dp" android:layout_marginTop="@dimen/size_4dp" android:src="@drawable/ic_ads_bg_select1" android:layout_marginEnd="@dimen/size_4dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/item_vip" android:visibility="gone" android:layout_width="@dimen/size_16dp" android:layout_height="@dimen/size_16dp" android:layout_marginTop="@dimen/size_4dp" android:src="@drawable/ic_vip_bg_select1" android:layout_marginEnd="@dimen/size_4dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/item_new" android:visibility="gone" android:layout_width="@dimen/size_26dp" android:layout_height="@dimen/size_14dp" android:src="@drawable/ic_draw_bg_new" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

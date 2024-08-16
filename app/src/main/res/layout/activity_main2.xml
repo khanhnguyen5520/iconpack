@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:background="?homepagebg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="notes.easy.android.mynotes.ui.fragments.NavigationDrawerFragment" android:layout_gravity="start" android:id="@id/navigation_drawer" android:fitsSystemWindows="true" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="fill_parent" />
+</androidx.drawerlayout.widget.DrawerLayout>

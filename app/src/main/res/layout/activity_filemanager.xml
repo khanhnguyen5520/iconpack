@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/filemanager_root" android:background="?settingbg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/status_height" android:layout_alignParentTop="true" />
+    <notes.easy.android.mynotes.view.ToolbarView android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" android:layout_below="@id/top_layout">
+        <ImageView android:layout_gravity="end|center" android:id="@id/delete_file" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/size_12dp" android:visibility="gone" android:layout_width="@dimen/size_48dp" android:layout_height="@dimen/size_48dp" android:src="@drawable/ic_trash" android:layout_marginEnd="@dimen/size_64dp" />
+        <TextView android:textColor="@color/black_86alpha_db202020" android:layout_gravity="end|center" android:id="@id/select_file" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_trash" android:text="Select" android:layout_marginEnd="@dimen/size_16dp" />
+    </notes.easy.android.mynotes.view.ToolbarView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/file_manager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="85.0dip" />
+    <TextView android:textSize="@dimen/size_24dp" android:id="@id/empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No image files." android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/checklist_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/check_box" android:background="@drawable/ic_checkbox10sp" android:layout_width="@dimen/size_14dp" android:layout_height="@dimen/size_14dp" android:layout_marginTop="@dimen/size_4dp" />
+    <TextView android:textSize="@dimen/text_14sp" android:textColor="@color/black_48alpha_7a000" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_8dp" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="120.0dip" android:layout_marginRight="120.0dip">
+        <RelativeLayout android:background="@drawable/shape_welcome_1_down_bg" android:layout_width="fill_parent" android:layout_height="132.0dip" android:layout_marginTop="@dimen/size_20dp" android:layout_marginBottom="@dimen/size_6dp" android:layout_marginStart="55.0dip" android:layout_marginEnd="@dimen/size_28dp">
+            <TextView android:textSize="15.0sp" android:textColor="#ff001c30" android:id="@id/down_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size_18dp" android:layout_marginTop="13.0dip" android:layout_marginRight="@dimen/size_18dp" android:text="@string/draw_and_pen" android:fontFamily="@font/manrope_semi_bold" />
+            <ImageView android:id="@id/down_img" android:layout_width="83.0dip" android:layout_height="83.0dip" android:layout_marginTop="@dimen/size_19dp" android:layout_marginBottom="@dimen/size_24dp" android:src="@drawable/welcome_1_down_icon" android:layout_marginEnd="@dimen/size_12dp" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:id="@id/down_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_6dp" android:layout_marginBottom="@dimen/size_6dp" android:text="@string/welcome_1_down_content1" android:lines="3" android:layout_below="@id/down_title" android:layout_marginStart="@dimen/size_18dp" android:layout_marginEnd="89.0dip" android:layout_alignEnd="@id/down_img" />
+            <TextView android:textSize="9.0sp" android:textColor="#52001c30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/size_12dp" android:text="20.10.2023" android:layout_below="@id/down_content1" android:layout_marginStart="@dimen/size_18dp" />
+        </RelativeLayout>
+        <ImageView android:layout_width="@dimen/size_80dp" android:layout_height="@dimen/size_80dp" android:src="@drawable/welcome_1_bg3" />
+        <ImageView android:layout_width="@dimen/size_46dp" android:layout_height="@dimen/size_46dp" android:layout_marginTop="@dimen/size_8dp" android:src="@drawable/welcome_1_icon3" android:layout_marginStart="@dimen/size_22dp" />
+    </RelativeLayout>
+</RelativeLayout>

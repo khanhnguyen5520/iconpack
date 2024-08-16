@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?settingbg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <notes.easy.android.mynotes.view.StatusBarHolderView android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <notes.easy.android.mynotes.view.setpw.SetPinPwdLayout android:id="@id/pinSetPwdLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" app:pinFullScreen="true" />
+    <notes.easy.android.mynotes.view.setpw.SetPatternPwdLayout android:id="@id/setPatternPwdLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent" app:patternFullScreen="true" />
+</LinearLayout>

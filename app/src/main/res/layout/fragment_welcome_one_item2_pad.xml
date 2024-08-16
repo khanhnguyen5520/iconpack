@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="120.0dip" android:layout_marginRight="120.0dip">
+        <RelativeLayout android:background="@drawable/shape_welcome_1_mid_bg" android:layout_width="fill_parent" android:layout_height="132.0dip" android:layout_marginTop="@dimen/size_20dp" android:layout_marginStart="40.0dip" android:layout_marginEnd="@dimen/size_40dp">
+            <LinearLayout android:id="@id/mid_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/size_18dp" android:layout_marginEnd="@dimen/size_12dp">
+                <TextView android:textSize="15.0sp" android:textColor="#ff001c30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🛒" android:fontFamily="@font/manrope_semi_bold" />
+                <TextView android:textSize="15.0sp" android:textColor="#ff001c30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shopping_list" android:fontFamily="@font/manrope_semi_bold" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_10dp" android:layout_marginBottom="@dimen/size_13dp" android:layout_below="@id/mid_title_layout" android:layout_marginStart="@dimen/size_19dp" android:layout_marginEnd="@dimen/size_6dp">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_18dp" android:src="@drawable/welcome_ic_drag" />
+                    <ImageView android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:src="@drawable/welcome_ic_checkbox" android:layout_marginStart="@dimen/size_8dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:id="@id/mid_content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🥕" android:lines="1" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_6dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#80001c30" android:ellipsize="end" android:id="@id/mid_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/carrots" android:lines="1" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_6dp">
+                    <ImageView android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_18dp" android:src="@drawable/welcome_ic_drag" />
+                    <ImageView android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:src="@drawable/welcome_ic_checkbox_nor" android:layout_marginStart="@dimen/size_8dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🦐" android:lines="1" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_6dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/shrimp" android:lines="1" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_6dp">
+                    <ImageView android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_18dp" android:src="@drawable/welcome_ic_drag" />
+                    <ImageView android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:src="@drawable/welcome_ic_checkbox_nor" android:layout_marginStart="@dimen/size_8dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="☕️" android:lines="1" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_6dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff001c30" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/coffee" android:lines="1" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:layout_width="@dimen/size_80dp" android:layout_height="@dimen/size_80dp" android:src="@drawable/welcome_1_bg2" android:layout_marginEnd="@dimen/size_11dp" android:layout_alignParentEnd="true" />
+        <ImageView android:layout_width="@dimen/size_46dp" android:layout_height="@dimen/size_46dp" android:layout_marginTop="@dimen/size_8dp" android:src="@drawable/welcome_1_icon2" android:layout_marginEnd="@dimen/size_28dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

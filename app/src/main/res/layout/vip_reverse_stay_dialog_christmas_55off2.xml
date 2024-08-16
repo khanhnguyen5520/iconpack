@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/cancel" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:layout_marginTop="@dimen/size_24dp" android:src="@drawable/ic_close_dialog" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/ic_dicount_bg_dialog1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_72dp">
+            <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:text="@string/back_to_school_sale" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/size_64dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/size_300dp">
+                    <LinearLayout android:id="@id/title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/size_12dp">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_19dp" android:src="@drawable/dialog_gou_w" />
+                        <TextView android:textSize="14.0sp" android:textColor="#dbffffff" android:id="@id/promotion_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/black_friday_save1" android:fontFamily="@font/manrope_medium" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/size_12dp">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_19dp" android:src="@drawable/dialog_gou_w" />
+                        <TextView android:textSize="14.0sp" android:textColor="#dbffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/black_friday_save2" android:fontFamily="@font/manrope_medium" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/title3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="@dimen/size_12dp">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/size_18dp" android:layout_height="@dimen/size_19dp" android:src="@drawable/dialog_gou_w" />
+                        <TextView android:textSize="14.0sp" android:textColor="#dbffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unlock_all_features" android:fontFamily="@font/manrope_medium" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/vip_container" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/size_18dp" android:layout_marginBottom="@dimen/size_24dp" android:layout_below="@id/content_bg" android:layout_marginStart="@dimen/size_22dp" android:layout_marginEnd="@dimen/size_22dp">
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="@color/theme_text_white_primary" android:gravity="center" android:id="@id/govip" android:background="@drawable/shape_festival_billing_btn_55" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:text="@string/black_friday_buy" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

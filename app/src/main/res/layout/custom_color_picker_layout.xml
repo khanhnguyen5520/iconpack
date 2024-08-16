@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/cancel_font_color" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_close_dialog" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_16dp_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_48dp">
+        <TextView android:textSize="@dimen/text_20sp" android:textColor="?theme_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:text="@string/font_color_select" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/color_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_16dp" android:layout_marginBottom="@dimen/size_24dp" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+    </LinearLayout>
+</FrameLayout>

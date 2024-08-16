@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appeaser.sublimepickerlibrary.recurrencepicker.WeekButton android:layout_width="@dimen/week_button_size" android:layout_height="@dimen/week_button_size" style="?spRocWeekButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

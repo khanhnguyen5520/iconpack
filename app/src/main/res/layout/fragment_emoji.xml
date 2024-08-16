@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?theme_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recommend_color_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/size_4dp" android:layout_marginBottom="@dimen/size_4dp" android:layout_marginStart="@dimen/size_8dp" android:layout_marginEnd="@dimen/size_8dp" />
+    <notes.easy.android.mynotes.view.PadWidthLimitFrameLayout android:layout_gravity="bottom|center" android:id="@id/vip_view" android:background="@drawable/shape_theme_btn_vip_ripple" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginBottom="@dimen/size_32dp" android:layout_marginStart="@dimen/size_40dp" android:layout_marginEnd="@dimen/size_40dp" android:elevation="@dimen/size_4dp">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/top_vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vip_new_ads" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_vip_action" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_8dp" />
+        </LinearLayout>
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center" android:id="@id/arrow" android:layout_width="@dimen/size_22dp" android:layout_height="@dimen/size_22dp" android:layout_marginEnd="@dimen/size_14dp" app:lottie_autoPlay="true" app:lottie_fileName="iap.json" app:lottie_imageAssetsFolder="assets/" app:lottie_loop="true" />
+    </notes.easy.android.mynotes.view.PadWidthLimitFrameLayout>
+</FrameLayout>

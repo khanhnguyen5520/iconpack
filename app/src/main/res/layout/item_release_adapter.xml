@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout1" android:padding="@dimen/size_5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/stick_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="center|right|top" android:id="@id/free_view" android:background="@drawable/shape_free_corner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:paddingTop="1.5dip" android:paddingBottom="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FREE" android:singleLine="true" android:paddingStart="@dimen/size_6dp" android:paddingEnd="@dimen/size_6dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

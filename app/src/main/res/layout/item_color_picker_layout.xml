@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/parent_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <notes.easy.android.mynotes.view.SquareImageView android:id="@id/item_color_solid" android:background="@color/color_C3BEDF" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1" />
+    <notes.easy.android.mynotes.view.SquareImageView android:id="@id/color_picker_ring" android:background="@drawable/shape_white_picker" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

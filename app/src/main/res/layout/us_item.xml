@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo_star" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_medal" />
+    <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_primary" android:gravity="center_vertical" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_10dp" />
+    <ImageView android:id="@id/next" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_follow_next" android:layout_marginEnd="@dimen/size_16dp" />
+</LinearLayout>

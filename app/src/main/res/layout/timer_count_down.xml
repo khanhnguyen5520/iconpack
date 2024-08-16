@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/timer_container" android:background="@drawable/timer_count_down_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="35.0dip">
+        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/view_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shape_round_normal_layerlist" android:layout_width="wrap_content" android:layout_height="@dimen/size_56dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <notes.easy.android.mynotes.view.WaveView android:id="@id/drawwave_view" android:visibility="gone" android:layout_width="@dimen/size_46dp" android:layout_height="@dimen/size_46dp" app:fillstyle="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:space="50" app:wavecolor="@color/red_ripple" app:width="65" />
+    <ImageView android:layout_gravity="center" android:id="@id/action_icon" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_11dp" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/ic_voice_svg" android:scaleType="fitCenter" />
+    <notes.easy.android.mynotes.view.CirclePointView android:layout_gravity="end|center|top" android:id="@id/action_point" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginEnd="8.0dip" />
+</FrameLayout>

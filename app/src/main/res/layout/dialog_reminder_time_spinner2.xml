@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_16dp_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_24dp" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp">
+        <LinearLayout android:layout_width="@dimen/size_50dp" android:layout_height="@dimen/size_168dp">
+            <notes.easy.android.mynotes.widget.scrollpicker.StringScrollPicker android:id="@id/viewsScrollPickerHour" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spv_alignment="center" app:spv_center_item_position="1" app:spv_disallow_intercept_touch="true" app:spv_is_circulation="true" app:spv_max_text_size="32.0dip" app:spv_min_text_size="24.0dip" app:spv_orientation="vertical" app:spv_visible_item_count="3" />
+        </LinearLayout>
+        <TextView android:textColor="?theme_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_marginStart="@dimen/size_14dp" android:layout_marginEnd="@dimen/size_14dp" />
+        <LinearLayout android:layout_width="@dimen/size_50dp" android:layout_height="@dimen/size_168dp">
+            <notes.easy.android.mynotes.widget.scrollpicker.StringScrollPicker android:id="@id/viewsScrollPickerMinute" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spv_alignment="center" app:spv_center_item_position="1" app:spv_disallow_intercept_touch="true" app:spv_is_circulation="true" app:spv_max_text_size="32.0dip" app:spv_min_text_size="24.0dip" app:spv_orientation="vertical" app:spv_visible_item_count="3" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/am_pm_layout" android:layout_width="@dimen/size_50dp" android:layout_height="@dimen/size_168dp" android:layout_marginStart="@dimen/size_28dp">
+            <notes.easy.android.mynotes.widget.scrollpicker.StringScrollPicker android:id="@id/viewsScrollPickerAmPm" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spv_alignment="center" app:spv_disallow_intercept_touch="true" app:spv_is_circulation="false" app:spv_max_text_size="32.0dip" app:spv_min_text_size="24.0dip" app:spv_orientation="vertical" app:spv_visible_item_count="3" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_dialog_bottom_btn" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="@dimen/size_14dp" app:cardElevation="@dimen/size_5dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <notes.easy.android.mynotes.view.NoteBgEditView android:id="@id/home_viewpage_item_img" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

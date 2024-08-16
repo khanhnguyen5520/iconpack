@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/sephiroth_checkbox3_size" android:width="@dimen/sephiroth_checkbox3_size" android:viewportWidth="18.0" android:viewportHeight="18.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="9.0" android:translateY="9.0">
+        <path android:fillColor="?colorControlNormal" android:pathData="@string/sephiroth_checkbox3_path_unchecked" />
+    </group>
+</vector>

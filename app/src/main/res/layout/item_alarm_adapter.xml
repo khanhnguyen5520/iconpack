@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:id="@id/time_layout" android:background="@drawable/shape_theme_04alpha_8dp_ripple" android:layout_width="fill_parent" android:layout_height="@dimen/size_48dp" android:layout_marginBottom="@dimen/size_8dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgTime" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_alarm_blue" android:layout_marginStart="@dimen/size_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_primary" android:id="@id/alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2022.06.20 10:22AM" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_12dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/imgTime" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/alarm_delete" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_baseline_delete_alarm" android:layout_marginEnd="@dimen/size_4dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

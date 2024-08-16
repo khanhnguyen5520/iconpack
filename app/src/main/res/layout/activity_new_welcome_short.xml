@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#fffffcf8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/new_welcome_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="1.0px" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/myViewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottom_layout" app:layout_constraintTop_toBottomOf="@id/top_layout" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bottom_layout" android:background="@drawable/shape_widget_style_btn_bg2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="6.0dip" android:layout_marginTop="@dimen/size_12dp">
+            <androidx.cardview.widget.CardView android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginEnd="@dimen/size_8dp" app:cardCornerRadius="3.0dip" app:cardElevation="0.0dip">
+                <View android:id="@id/pageMarkup1" android:background="#ff001c30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginEnd="@dimen/size_8dp" app:cardCornerRadius="3.0dip" app:cardElevation="0.0dip">
+                <View android:id="@id/pageMarkup2" android:background="#1f001c30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="6.0dip" android:layout_height="6.0dip" app:cardCornerRadius="3.0dip" app:cardElevation="0.0dip">
+                <View android:id="@id/pageMarkup3" android:background="#1f001c30" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView android:id="@id/start_now_layout" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="@dimen/size_20dp" android:layout_marginBottom="@dimen/size_34dp" android:foreground="?android:selectableItemBackground" android:layout_marginStart="@dimen/size_32dp" android:layout_marginEnd="@dimen/size_32dp" app:cardCornerRadius="@dimen/size_29dp" app:cardElevation="0.0dip">
+            <TextView android:textSize="@dimen/text_16sp" android:textColor="@color/white" android:gravity="center" android:id="@id/start_now" android:background="@drawable/shape_theme_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/billing_action" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center" android:id="@id/arrow_animation" android:layout_width="@dimen/size_28dp" android:layout_height="@dimen/size_28dp" android:layout_marginEnd="20.0dip" app:lottie_autoPlay="true" app:lottie_fileName="iap.json" app:lottie_imageAssetsFolder="assets/" app:lottie_loop="true" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

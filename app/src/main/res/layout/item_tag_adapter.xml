@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/root" android:background="@drawable/shape_theme_04alpha_32dp" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:textColor="#8a001c30" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/item_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:maxLines="1" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <TextView android:textSize="11.0sp" android:textColor="#3d001c30" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/item_line" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:text="|" android:maxLines="1" android:fontFamily="@font/manrope_semi_bold" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_delete" android:padding="6.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_baseline_close_24" />
+</LinearLayout>

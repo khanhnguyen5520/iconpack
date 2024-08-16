@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="@dimen/size_32dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/item_color_center" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/shape_paint_selector" />
+    <ImageView android:layout_gravity="center" android:id="@id/item_color_ring" android:layout_width="@dimen/size_12dp" android:layout_height="@dimen/size_12dp" android:src="@drawable/shape_paint_selector" />
+    <ImageView android:layout_gravity="center" android:id="@id/item_black_cycle" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/shape_paint_cycle_grey" />
+</FrameLayout>

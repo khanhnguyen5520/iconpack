@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_16dp_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_20sp" android:textColor="?theme_text_primary" android:gravity="center" android:id="@id/feedback_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:text="@string/cate_rename_title" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+    <EditText android:textSize="@dimen/size_16dp" android:textColor="?theme_text_primary" android:gravity="start" android:id="@id/feedback_edit" android:background="@drawable/shape_theme_04alpha_8dp" android:padding="@dimen/size_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_16dp" android:minHeight="48.0dip" android:maxLines="1" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="@dimen/size_20dp" android:layout_marginEnd="@dimen/size_20dp" />
+    <include layout="@layout/layout_dialog_bottom_btn" />
+</LinearLayout>

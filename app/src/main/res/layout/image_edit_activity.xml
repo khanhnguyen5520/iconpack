@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/vs_op" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/image_fade_in" android:outAnimation="@anim/image_fade_out">
+        <include layout="@layout/image_edit_opt_layout" />
+    </ViewSwitcher>
+    <notes.easy.android.mynotes.edit.view.PhotoView android:id="@id/image_canvas" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/size_56dp" android:layout_marginBottom="150.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/saveing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" />
+        <TextView android:textSize="@dimen/size_16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/savetext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_15dp" android:text="@string/edit_save" />
+    </LinearLayout>
+</FrameLayout>

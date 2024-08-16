@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?homepagebg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <notes.easy.android.mynotes.view.ToolbarView android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" />
+    <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/backup_drive_title" android:background="?theme_bg_04alpha" android:paddingTop="@dimen/size_4dp" android:paddingBottom="@dimen/size_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Drive" android:lines="1" android:includeFontPadding="false" android:fontFamily="@font/manrope_medium" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/backup_drive_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0dip" android:textColor="?theme_text_primary" android:id="@id/backup_config_title" android:background="?theme_bg_04alpha" android:paddingTop="@dimen/size_4dp" android:paddingBottom="@dimen/size_4dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Config" android:lines="1" android:includeFontPadding="false" android:fontFamily="@font/manrope_medium" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/backup_config_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

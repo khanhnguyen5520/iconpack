@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/shape_gradient_vip_bg_testa" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintHeight_percent="0.8" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/top_layout" android:layout_width="0.0dip" android:layout_height="1.0px" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/pad_size_15sp" android:textColor="@color/color_001C30" android:gravity="center" android:id="@id/title_tv" android:layout_width="@dimen/pad_size_260dp" android:layout_height="wrap_content" android:text="@string/welcom_to_easynotes" android:fontFamily="@font/manrope_extrabold" android:paddingStart="@dimen/pad_size_14dp" android:paddingEnd="@dimen/pad_size_14dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_layout" app:layout_constraintVertical_bias="0.09" />
+    <View android:id="@id/title_tv_bottom_holder" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintHeight_percent="0.05" app:layout_constraintTop_toBottomOf="@id/title_tv" />
+    <ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_tv_bottom_holder">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/pad_size_260dp" android:layout_height="wrap_content" android:paddingStart="@dimen/pad_size_24dp" android:paddingEnd="@dimen/pad_size_24dp">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="@dimen/pad_size_18dp" android:layout_height="@dimen/pad_size_18dp" android:src="@drawable/ic_welcome_bg" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pad_size_11dp">
+                    <TextView android:textSize="@dimen/pad_size_8sp" android:textColor="@color/color_001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_list_title1" android:fontFamily="@font/manrope_semi_bold" />
+                    <TextView android:textSize="@dimen/pad_size_7sp" android:textColor="@color/color_8A001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_4dp" android:text="@string/welcome_list_title1_des" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_24dp">
+                <ImageView android:layout_width="@dimen/pad_size_18dp" android:layout_height="@dimen/pad_size_18dp" android:src="@drawable/ic_welcome_font" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pad_size_11dp">
+                    <TextView android:textSize="@dimen/pad_size_8sp" android:textColor="@color/color_001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcom_title2" android:fontFamily="@font/manrope_semi_bold" />
+                    <TextView android:textSize="@dimen/pad_size_7sp" android:textColor="@color/color_8A001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_4dp" android:text="@string/welcom_case_b_subtitle2" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_24dp">
+                <ImageView android:layout_width="@dimen/pad_size_18dp" android:layout_height="@dimen/pad_size_18dp" android:src="@drawable/ic_welcome_widget" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pad_size_11dp">
+                    <TextView android:textSize="@dimen/pad_size_8sp" android:textColor="@color/color_001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_list_title3" android:fontFamily="@font/manrope_semi_bold" />
+                    <TextView android:textSize="@dimen/pad_size_7sp" android:textColor="@color/color_8A001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_4dp" android:text="@string/welcome_list_title3_des" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_24dp">
+                <ImageView android:layout_width="@dimen/pad_size_18dp" android:layout_height="@dimen/pad_size_18dp" android:src="@drawable/ic_welcome_draw" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pad_size_11dp">
+                    <TextView android:textSize="@dimen/pad_size_8sp" android:textColor="@color/color_001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcom_case_b_title4" android:fontFamily="@font/manrope_semi_bold" />
+                    <TextView android:textSize="@dimen/pad_size_7sp" android:textColor="@color/color_8A001C30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pad_size_4dp" android:text="@string/welcom_case_b_subtitle4" android:fontFamily="@font/manrope_medium" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/pad_size_90dp" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@drawable/shape_widget_style_btn_bg2" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@id/start_now_layout_top_holder" />
+    <View android:id="@id/start_now_layout_top_holder" android:layout_width="fill_parent" android:layout_height="@dimen/pad_size_40dp" app:layout_constraintBottom_toTopOf="@id/start_now_layout" />
+    <androidx.cardview.widget.CardView android:id="@id/start_now_layout" android:layout_width="@dimen/pad_size_260dp" android:layout_height="@dimen/pad_size_28dp" android:foreground="?android:selectableItemBackground" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/pad_size_14dp" app:cardElevation="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_layout" app:layout_constraintVertical_bias="0.9">
+        <TextView android:textSize="@dimen/pad_size_8sp" android:textColor="@color/white" android:gravity="center" android:id="@id/start_now" android:background="@drawable/shape_theme_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/billing_action" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|center" android:id="@id/arrow_animation" android:layout_width="@dimen/pad_size_14dp" android:layout_height="@dimen/pad_size_14dp" android:layout_marginEnd="@dimen/pad_size_10dp" app:lottie_autoPlay="true" app:lottie_fileName="iap.json" app:lottie_imageAssetsFolder="assets/" app:lottie_loop="true" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

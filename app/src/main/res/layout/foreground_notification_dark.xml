@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff121212" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip">
+        <FrameLayout android:orientation="vertical" android:id="@id/action_add" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/size_24dp" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_notification_add_dark" />
+        </FrameLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/action_checklist" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/size_24dp" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_checklist_svg_dark" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_draw" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/size_24dp" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_draw_black_dark" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_pic" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/size_24dp" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_add_pic_dark" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_exit" android:clickable="true" android:layout_width="0.0dip" android:layout_height="@dimen/size_24dp" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="@dimen/size_24dp" android:layout_height="@dimen/size_24dp" android:src="@drawable/ic_notification_cancel_dark" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

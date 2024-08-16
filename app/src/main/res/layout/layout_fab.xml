@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="108.0dip" android:layout_height="108.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/fab_ripple" android:layout_width="@dimen/size_98dp" android:layout_height="@dimen/size_98dp" />
+    <ImageView android:layout_gravity="center" android:background="@drawable/ic_home_edit_shadow" android:layout_width="108.0dip" android:layout_height="108.0dip" />
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/fab_btn" android:layout_width="@dimen/size_56dp" android:layout_height="@dimen/size_56dp" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/size_28dp" app:cardElevation="0.0dip">
+        <ImageView android:layout_width="@dimen/size_56dp" android:layout_height="@dimen/size_56dp" android:src="@drawable/ic_home_edit" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

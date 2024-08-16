@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:theme="?toolbar" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="?album.element.color" android:gravity="center" android:id="@id/selected_album" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:foreground="?selectableItemBackground" android:drawableRight="@drawable/ic_arrow_drop_down_white_24dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/permission_manage" android:background="@drawable/shape_matisse_accent_10alpha_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/toolbar">
+        <TextView android:textSize="16.0sp" android:textColor="?album.element.color" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/manage_title" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/permission_manage_btn" android:background="@drawable/shape_matisse_accent_32dp_ripple" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/manage" android:textAllCaps="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/bottom_toolbar" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="4.0dip" />
+    <FrameLayout android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_toolbar" android:layout_below="@id/permission_manage">
+        <FrameLayout android:id="@id/container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/originalLayout" android:background="#fffafafa" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff202020" android:layout_gravity="start|center" android:id="@id/button_apply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/choose_action" android:background="@drawable/ripple_bg_matisse" android:layout_width="56.0dip" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:src="@drawable/ic_file_not_choose" android:layout_marginEnd="20.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_toolbar" android:layout_below="@id/permission_manage">
+        <TextView android:textSize="16.0sp" android:textColor="?album.emptyView.textColor" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_view_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_text" android:drawableTop="?album.emptyView" android:drawablePadding="8.0dip" />
+    </FrameLayout>
+</RelativeLayout>

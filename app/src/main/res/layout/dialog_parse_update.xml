@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/btn_cancel" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_close_dialog" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_16dp_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_48dp">
+        <TextView android:textSize="@dimen/text_20sp" android:textColor="?theme_text_primary" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/new_update" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+        <TextView android:textSize="@dimen/text_16sp" android:textColor="?theme_text_secondary" android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/dialog_update_content" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+        <TextView android:textColor="@color/theme_text_white_primary" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/shape_theme_btn_ripple" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginLeft="@dimen/size_24dp" android:layout_marginTop="@dimen/size_28dp" android:layout_marginRight="@dimen/size_24dp" android:layout_marginBottom="@dimen/size_24dp" android:text="@string/upgrade_now" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+    </LinearLayout>
+</FrameLayout>

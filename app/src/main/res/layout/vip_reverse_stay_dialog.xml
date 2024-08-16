@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_34dp" android:layout_alignTop="@id/imgStay" android:layout_alignBottom="@id/laoyt" app:cardBackgroundColor="#fffffaec" app:cardCornerRadius="@dimen/size_14dp" app:cardElevation="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/laoyt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/imgStay">
+        <TextView android:textSize="@dimen/text_18sp" android:textColor="#ff622a00" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iap_olduser_desc" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+        <LinearLayout android:paddingLeft="@dimen/size_7dp" android:paddingRight="@dimen/size_7dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_font" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/font_title" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_backgrounds" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/backgrounds_title" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_widget" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/widgets_title" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_pdf" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/share_pdf" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="@dimen/size_7dp" android:paddingRight="@dimen/size_7dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_12dp">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_lock" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/lock" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_emoji" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/emoji_title" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_sync" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/backup_auto_sync" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/retain_dialog_icon_more" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="10.0sp" android:textColor="#7a001c30" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_40dp" android:minHeight="@dimen/size_16dp" android:text="@string/more_title" android:layout_centerHorizontal="true" android:fontFamily="@font/manrope_medium" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/size_22dp" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp">
+            <ImageView android:id="@id/vip_btn_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/vip_btn_78version_case3" android:scaleType="fitXY" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/theme_text_white_primary" android:gravity="center" android:id="@id/govip" android:background="@drawable/shape_theme_btn_transparent_white_32dp" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:text="@string/vip_3days_free_trial" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/size_12dp" android:textColor="#7a001c30" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_12dp" android:layout_marginBottom="@dimen/size_20dp" android:text="@string/cancel_anytime" android:fontFamily="@font/manrope_medium" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgStay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-13.0dip" android:layout_marginTop="-20.0dip" android:layout_marginRight="-13.0dip" android:src="@drawable/freetrail_pic" android:adjustViewBounds="true" android:layout_below="@id/cancel" />
+    <ImageView android:id="@id/cancel" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_close_wt_2" android:layout_alignParentRight="true" />
+</RelativeLayout>

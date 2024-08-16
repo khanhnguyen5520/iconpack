@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffe2f3ff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/us_bg" android:adjustViewBounds="true" />
+    <View android:id="@id/top_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/status_height" app:layout_constraintTop_toTopOf="parent" />
+    <notes.easy.android.mynotes.view.ToolbarView android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp" android:layout_below="@id/top_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/translate_card" android:background="@drawable/shape_mine_menu_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/size_12dp" android:layout_below="@id/bg" android:layout_marginStart="@dimen/size_12dp" android:layout_marginEnd="@dimen/size_12dp">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:layout_marginStart="@dimen/size_16dp">
+            <View android:background="#ffffeaa3" android:layout_width="wrap_content" android:layout_height="@dimen/size_15dp" android:layout_marginTop="@dimen/size_6dp" android:layout_alignBottom="@id/text" android:layout_marginEnd="-20.0dip" android:layout_alignStart="@id/text" android:layout_alignEnd="@id/text" />
+            <TextView android:textSize="@dimen/text_18sp" android:textColor="?theme_text_primary" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/follow_us_slogan" android:fontFamily="@font/manrope_semi_bold" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/translate_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/size_16dp" android:overScrollMode="never" android:layout_marginStart="@dimen/size_16dp" />
+    </LinearLayout>
+</RelativeLayout>

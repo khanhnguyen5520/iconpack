@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/pob_custom_page_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/pob_install_btn" android:background="@drawable/pob_install_btn_drawable" android:layout_width="wrap_content" android:layout_height="@dimen/pob_install_height" android:maxWidth="@dimen/pob_install_max_height" android:minWidth="@dimen/pob_install_min_height" android:text="@string/pob_openwrap_install_button_title" android:textAllCaps="false" android:textAlignment="center" />
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end" android:id="@id/locking_close" android:background="@drawable/shape_theme_ripple_cycle_white_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_40dp" android:layout_height="@dimen/size_40dp" android:src="@drawable/ic_close_dialog" />
+    <androidx.cardview.widget.CardView android:id="@id/locking_set_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_48dp" app:cardBackgroundColor="?theme_dialog_bg" app:cardCornerRadius="@dimen/size_16dp" app:cardElevation="0.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/pic_lock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cropimg_pic_case_b" android:adjustViewBounds="true" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="?theme_text_primary" android:gravity="center_horizontal" android:id="@id/locking_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size_20dp" android:text="@string/vip_crop_dialog_title" android:fontFamily="@font/manrope_medium" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp" />
+                <RelativeLayout android:id="@id/lock_update_btn" android:background="@drawable/shape_theme_btn_vip_ripple" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/size_28dp" android:layout_marginBottom="@dimen/size_24dp" android:layout_marginStart="@dimen/size_24dp" android:layout_marginEnd="@dimen/size_24dp">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/govip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <ImageView android:id="@id/top_vip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vip_1" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/theme_text_white_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/font_vip_action" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" android:layout_marginStart="@dimen/size_8dp" />
+                    </LinearLayout>
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/arrow" android:layout_width="@dimen/size_22dp" android:layout_height="@dimen/size_22dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/size_14dp" android:layout_alignParentEnd="true" app:lottie_autoPlay="true" app:lottie_fileName="iap.json" app:lottie_imageAssetsFolder="assets/" app:lottie_loop="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

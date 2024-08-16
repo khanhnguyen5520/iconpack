@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?homepagebg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/top_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/status_height" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/size_56dp">
+            <ImageView android:id="@id/toolbar_back" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_16dp" android:layout_width="@dimen/size_56dp" android:layout_height="@dimen/size_56dp" app:srcCompat="@drawable/ic_arrow_back_24_black" />
+            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@id/iv_month_pre" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_calendar_left" />
+                <TextView android:textSize="18.0dip" android:textColor="?theme_text_primary" android:gravity="center_vertical" android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2000/1" android:fontFamily="@font/manrope_semi_bold" />
+                <ImageView android:id="@id/iv_month_next" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_8dp" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:src="@drawable/ic_calendar_right" />
+            </LinearLayout>
+            <ImageView android:id="@id/imgSearchExpand" android:background="@drawable/shape_theme_ripple_cycle_20dp" android:padding="@dimen/size_18dp" android:layout_width="@dimen/size_56dp" android:layout_height="@dimen/size_56dp" android:src="@drawable/ic_calendar_arrow_up" />
+        </LinearLayout>
+        <com.haibin.calendarview.CalendarLayout android:orientation="vertical" android:id="@id/calendarLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:calendar_content_view_id="@id/notes_list" app:layout_constraintTop_toBottomOf="@id/toolbar_layout">
+            <com.haibin.calendarview.CalendarView android:id="@id/calendarView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:calendar_padding="@dimen/size_20dp" app:current_day_text_color="@color/colorAccent" app:month_view="notes.easy.android.mynotes.view.calendar.CustomMonthView" app:month_view_auto_select_day="last_select_day_ignore_current" app:month_view_show_mode="mode_fix" app:selected_text_color="@color/white" app:selected_theme_color="@color/colorAccent" app:week_bar_view="notes.easy.android.mynotes.view.calendar.CustomWeekBar" app:week_start_with="sun" app:week_view="notes.easy.android.mynotes.view.calendar.CustomWeekView" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/notes_list" android:background="?calendar_page_color" android:padding="@dimen/size_8dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llNoNotesText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/size_16dp" android:textColor="?theme_text_third" android:id="@id/createNotesTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calendar_no_notes_text" android:fontFamily="@font/manrope_semi_bold" />
+                <TextView android:textSize="@dimen/size_16dp" android:textColor="?theme_text_third" android:id="@id/createNotesTextView2" android:paddingTop="@dimen/size_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calendar_no_notes_text2" android:fontFamily="@font/manrope_semi_bold" />
+            </LinearLayout>
+        </com.haibin.calendarview.CalendarLayout>
+    </LinearLayout>
+    <notes.easy.android.mynotes.view.FabView android:layout_gravity="end|bottom|center" android:id="@id/note_fab" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginBottom="@dimen/size_64dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</FrameLayout>

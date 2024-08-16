@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_round_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_file" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="10.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/attach_file_svg" />
+        <TextView android:textSize="16.0sp" android:textColor="?theme_text_primary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/attach_file" android:fontFamily="@font/manrope_medium" android:layout_marginStart="24.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_img" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:padding="1.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/attach_img_svg" />
+        <TextView android:textSize="16.0sp" android:textColor="?theme_text_primary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_images" android:fontFamily="@font/manrope_medium" android:layout_marginStart="24.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/add_audio" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="16.0dip" app:srcCompat="@drawable/attach_audio_svg" />
+        <TextView android:textSize="16.0sp" android:textColor="?theme_text_primary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_audio_recordings" android:fontFamily="@font/manrope_medium" android:layout_marginStart="24.0dip" />
+    </LinearLayout>
+    <View android:background="@color/black_2alpha_06000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+    <TextView android:textSize="@dimen/text_14sp" android:textColor="?theme_text_secondary" android:gravity="center" android:id="@id/menu_cancel" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/cancel" android:textAllCaps="true" android:fontFamily="@font/manrope_semi_bold" />
+</LinearLayout>
