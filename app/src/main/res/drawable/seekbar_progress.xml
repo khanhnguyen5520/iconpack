@@ -19,7 +19,7 @@
         <clip>
             <shape android:shape="line">
                 <corners android:radius="3.0dip" />
-                <stroke android:width="3.0dip" android:color="@color/colorAccent" />
+                <stroke android:width="3.0dip" android:color="@color/black" />
             </shape>
         </clip>
     </item>

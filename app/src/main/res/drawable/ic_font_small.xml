@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:translateX="-244.0" android:translateY="-448.0">
         <group android:translateX="244.0" android:translateY="448.0">
-            <path android:fillColor="?theme_text_primary" android:pathData="M 7 11 L 17 11 Q 18 11 18 12 L 18 12 Q 18 13 17 13 L 7 13 Q 6 13 6 12 L 6 12 Q 6 11 7 11 Z" android:strokeWidth="1.0" />
+            <path android:fillColor="@color/black" android:pathData="M 7 11 L 17 11 Q 18 11 18 12 L 18 12 Q 18 13 17 13 L 7 13 Q 6 13 6 12 L 6 12 Q 6 11 7 11 Z" android:strokeWidth="1.0" />
         </group>
     </group>
 </vector>
